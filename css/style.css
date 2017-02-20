@@ -1,0 +1,38 @@
+.main{
+    height: 500px;
+    width: 800px;
+    margin: 30px auto;
+    border-radius: 10px;
+    /*background-image: url(1.jpg);*/
+    /*background-size: cover;*/
+}
+.main:hover{
+    box-shadow: 0 0 20px 3px gray;
+
+}
+.slide{
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+}
+.slide-img{
+    display: none;
+}
+.slide-img-active{
+    display: inline-block;
+}
+.slide-indicators{
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+}
+.slide-indicators span{
+    display: inline-block;
+    border-radius: 50%;
+    background: #fff;
+    width: 15px;
+    height: 15px;
+}
+.slide-indicators-active{
+    background: #ff0000 !important;
+}
